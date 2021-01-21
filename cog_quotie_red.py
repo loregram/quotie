@@ -48,6 +48,5 @@ class cog_quotie_red(commands.Cog):
 				f.write(date+',;')
 				f.write(quote+'\n')
 				f.close()
-					fa
 def setup(client):
 	client.add_cog(cog_quotie_red(client))
