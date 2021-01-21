@@ -11,4 +11,4 @@ from .cog_quotie_red import cog_quotie_red
 
 
 def setup(bot: Red):
-	client.add_cog(cog_quotie_red(bot))
+	bot.add_cog(cog_quotie_red(bot))
