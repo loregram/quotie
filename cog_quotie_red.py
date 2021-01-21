@@ -23,9 +23,6 @@ triggerword = '!quote' #trigger
 
 
 class cog_quotie_red(commands.Cog):
-	def __init__(self,client):
-		self.client = client
-		
 #	@commands.command(pass_context=True)
 	@commands.Cog.listener()
 	async def on_message(self,ctx):
@@ -48,5 +45,3 @@ class cog_quotie_red(commands.Cog):
 				f.write(date+',;')
 				f.write(quote+'\n')
 				f.close()
-def setup(client):
-	client.add_cog(cog_quotie_red(client))

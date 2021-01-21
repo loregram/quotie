@@ -11,6 +11,4 @@ from .cog_quotie_red import cog_quotie_red
 
 
 def setup(bot: Red):
-    daily = AnnounceDaily(cog_quotie_red)
-    bot.add_cog(daily)
-    bot.loop.create_task(daily.check_day())
+	client.add_cog(cog_quotie_red(bot))
