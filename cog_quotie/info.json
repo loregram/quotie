@@ -1,0 +1,14 @@
+{
+  "author": [
+    "lore"
+  ],
+  "min_bot_version": "3.3.0",
+  "description": "quotes",
+  "hidden": false,
+  "install_msg": "Thank you for installing quotie_bot! Get started with `<command>quote'",
+  "short": "does quotes",
+  "end_user_data_statement": "This cog does not store any End User Data",
+  "tags": [
+    "lore"
+  ]
+}
